@@ -1,0 +1,74 @@
+.logo{
+    background-color: #9f3c5b;
+}
+.logo>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float:right;
+}
+.logo>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.logo>ul>li>a{
+    color: #2aaad8;
+    text-decoration: dotted;
+    font-weight: bold;
+}
+.logo>ul>li:hover{
+    background-color:rgb(70, 97, 107);
+}
+.logo>ul>li:hover a{
+    color:  rgb(186, 145, 183);
+}
+.logo>img{
+    height: 54px;
+}
+/* p10.html Navigation */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: blanchedalmond;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: darkcyan;
+}
+header>nav>ul>li:hover a{
+    color: rgb(13, 29, 29);
+}
+header>nav>ul>li>a{
+    color: darkgray;
+    text-decoration: none;
+}
+/* p11.html and p12.html */
+.banner1{
+    background-color: dimgray;
+}
+.bannerCommonClass{
+    color: ghostwhite;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.bannerCommonClass>h1:hover{
+    color: floralwhite;
+}
+.banner2{
+    background-image: url(../Images/img\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

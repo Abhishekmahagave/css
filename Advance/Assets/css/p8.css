@@ -1,0 +1,101 @@
+.cssColor1{
+    background-color: grey;
+}
+.cssColor2{
+    background-color: blue;
+}
+.cssColor3{
+    background-color: red;
+}
+.commonCssColors{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.jumbotron{
+    background-color: purple;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+.cssText>p{
+    text-indent: 100px;
+}
+.navBar{
+    background-color: grey;
+}
+.navBar>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float:right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li>:hover{
+    background-color:#fff;
+}
+.navBar>ul>li>hover a{
+    color: grey;
+}
+.navBar>img{
+    height: 54px;
+}
+.list-marker-position>ol>li{
+    background-color: cyan;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+.list-marker-position>ol>li>a{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+}
+.list-icon>ul>li{
+    list-style-image: url(../Images/pin.png);
+}
+.list-shorthand>ul>li{
+    background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style: decimal inside url(../Images/pin.png);
+}
+/*p9.html*/
+.EMPTY-CELL-TABLE{
+    empty-cells: hide;
+}
+.ODD-EVEN TABLE, .ODD-EVEN TABLE Th, .ODD-EVEN TABLE td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    color: darksalmon;
+}
+.ODD-EVEN-TABLE  tr:nth-child(EVEN){
+    background-color: honeydew;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        .combination{
+            background-color: rgb(71, 72, 69);
+            color: darkblue;
+            padding: 20px;
+        }
+        .combination h3{
+            color: rgb(72, 30, 103);
+        }
+        .combination p{
+            color: coral;
+        }
+        .combination>p{
+            background-color: rgb(71, 72, 69);
+            color: darkblue;
+            padding: 20px;
+        }
+        .combination > h3{
+            color: rgb(72, 30, 103);
+        }
+        .combination>div>p{
+            color: coral;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>there are 4 different combinations in class</h1>
+    </center>
+    <hr>
+    <ol>
+        <li>descent selector(space)</li>
+        <li>child selector(symbol)</li>
+        <li>adjacent sibling selector(+symbol)</li>
+        <li>general sibling  selector(~symbol)</li>
+    </ol>
+    <hr>
+    <h1>descent selector(using space)</h1>
+    <hr>
+    <section class="combination">
+    <h3>First h3 tag (child element)</h3>
+    <p>first paragraph (child elment)</p>
+
+    <h3>secound h3 tag (child element)</h3>
+    <p>secound paragraph (child elment)</p>
+
+    <h3>Third h3 tag (child element)</h3>
+    <p>Third paragraph (child elment)</p>
+</section>
+
+    <section class="combination">
+        <section class="combination">
+            <h3>First h3 tag (child element)</h3>
+            <p>first paragraph (child elment)</p>
+        
+            <h3>secound h3 tag (child element)</h3>
+            <p>secound paragraph (child elment)</p>
+        
+            <h3>Third h3 tag (child element)</h3>
+            <p>Third paragraph (child elment)</p>
+
+    </section>
+
+
+    
+</body>
+</html>
